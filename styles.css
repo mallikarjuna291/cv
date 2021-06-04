@@ -24,6 +24,7 @@ hr:hover{
 .btn{
   background-color: #00af91;
   border-radius: 5px;
+  text-decoration:none;
 }
 .btn:hover{
   background-color:#16c79a;
