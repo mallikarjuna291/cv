@@ -9,11 +9,94 @@ h1{
   margin-top: 0px;
   font-family: 'Sacramento', cursive;
 }
+hr{
+  border: dotted 6px;
+  width: 4%;
+  border-bottom: none;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  color: #00917c;
+
+}
+hr:hover{
+  color: #bbdfc8;
+}
+.btn{
+  background-color: #00af91;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color:#16c79a;
+}
+
 .bird{
   height: 80px;
   width: 80px;
   position: relative;
   bottom: 330px;
+}
+.skills{
+  margin-top: 70px;
+}
+.skill-row1{
+  padding-top: 50px;
+  padding: 70px;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+}
+.skill-row2{
+  padding: 70px;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+}
+.skill-row3{
+  padding: 70px;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+}
+.skill-row4{
+  padding: 70px;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+}
+.progpic{
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.webpic{
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 10px;
+}
+
+.cybpic{
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.rdbmspic{
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 30px;
 }
 
 h2{
@@ -22,6 +105,10 @@ h2{
 
 h3{
   font-family: 'Montserrat', sans-serif;
+}
+.intro{
+  width: 30%;
+  margin: auto;
 }
 .mountain{
   height: 400px;
@@ -32,10 +119,6 @@ h3{
   height: 200px;
   width: 200px;
 }
-.progpic{
-  height: 150px;
-  width: 150px;
-}
 .top-container{
 
   padding-top: 90px;
@@ -43,7 +126,11 @@ h3{
 
 }
 .middle-container{
-  padding: 20px;
+  padding: 50px;
+}
+.bottom-container{
+  padding: 70px;
+  background-color: #b0efeb;
 }
 .top-cloud{
   position: relative;
@@ -52,6 +139,15 @@ h3{
 
 }
 .bottom-cloud{
+
   position: absolute;
   left: 150px;
+}
+.icon1{
+  margin-right: 30px;
+  width: 3%;
+}
+.icon2{
+
+width: 3%;
 }
