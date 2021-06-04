@@ -1,12 +1,57 @@
 body{
-  background-color: #d5ecc2;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
 }
-hr{
-  border-style: dotted none none;
-  border-width: 8px;
-  width:8%;
-  border-color: grey;
+h1{
+  font-size: 500%;
+  margin-top: 0px;
+  font-family: 'Sacramento', cursive;
 }
-h1,h3{
-  color: #07689f;
+.bird{
+  height: 80px;
+  width: 80px;
+  position: relative;
+  bottom: 330px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.mountain{
+  height: 400px;
+  width: 400px;
+}
+
+.profilepic{
+  height: 200px;
+  width: 200px;
+}
+.progpic{
+  height: 150px;
+  width: 150px;
+}
+.top-container{
+
+  padding-top: 90px;
+  background-color: #caf7e3;
+
+}
+.middle-container{
+  padding: 20px;
+}
+.top-cloud{
+  position: relative;
+  left:400px;
+  top:5px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 150px;
 }
